@@ -109,7 +109,8 @@ Create a my-site.conf file inside that directory.
 On the Linux terminal type, `sudo vim my-site.conf`
 `vim` is a text editor
 Copy and paste inside that vim file, 
-```server {
+```
+server {
 	listen 80 default_server;
 	listen [::]:80 default_server;
 	
@@ -129,7 +130,8 @@ Copy and paste inside that vim file,
 
 ## Configure a server block
 In the same file `my-site.conf` edit the directory.
-```server {
+```
+server {
 	listen 80 default_server;
 	listen [::]:80 default_server;
 	
